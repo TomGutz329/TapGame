@@ -1,0 +1,52 @@
+body {
+    background: radial-gradient(#03ed00, #32fe06);
+}
+
+.score-container {
+    position: absolute;
+    top: 18px;
+    left: 30px;
+    height: 36px;
+    width: 180px;
+    border: 2px solid #fd9105;
+    background-color: #fecc04;
+    display: flex;
+    text-align: right;
+}
+
+.coin-image {
+    height: 36px;
+    width: 36px;
+}
+
+#score-counter {
+    height: 36px;
+    width: 144px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: 2px;
+    color: #fe8805;
+}
+
+.tap-section {
+    height: 120px;
+    width: 840px;
+    position: relative;
+    top: 70px;
+    left: 40px;
+}
+
+.tap-button {
+    height: 60px;
+    width: 105px;
+    font-size: 21px;
+    color: #fe8805;
+}
+
+.coin-image-small {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    top: 3px;
+}
